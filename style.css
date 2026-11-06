@@ -84,7 +84,7 @@ a { color: inherit; text-decoration: none; }
   padding: 100px 0 90px;
   background:
     radial-gradient(circle at 80% 20%, rgba(61, 220, 151, 0.08), transparent 45%),
-    linear-gradient(var(--border) 1px, transparent 1px) 0 0 / 100% 48px;
+    linear-gradient(rgba(31, 42, 55, 0.35) 1px, transparent 1px) 0 0 / 100% 48px;
   background-blend-mode: normal;
   position: relative;
 }
