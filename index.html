@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laksh Khatri | Cybersecurity</title>
+  <meta name="description" content="Laksh Khatri, cybersecurity student at VIT Vellore. Projects in web security, attack surface recon and detection engineering.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <div class="nav-inner">
+      <a href="#top" class="logo"><span class="prompt">~/</span>laksh</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#learning">Learning</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Cybersecurity student · VIT Vellore</p>
+          <h1>Laksh Khatri</h1>
+          <p class="headline">I break web apps, map attack surfaces and build things that catch attackers.</p>
+          <p class="intro">Third-year B.Tech CSE (Cybersecurity) student and CompTIA Security+ certified. This site is the evidence behind my CV: what I built, why, and what I found.</p>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn" href="https://github.com/lakshkhatri2021" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/lakshkhatri/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="https://tryhackme.com/p/lakshkhatri2021" target="_blank" rel="noopener">TryHackMe</a>
+          </div>
+        </div>
+
+        <div class="terminal reveal" aria-hidden="true">
+          <div class="terminal-bar">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="terminal-title">laksh@portfolio</span>
+          </div>
+          <div class="terminal-body" id="terminal-body"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container narrow reveal">
+        <p class="section-label">01 / About</p>
+        <h2>About me</h2>
+        <p>I'm interested in both sides of security: how systems break, and how you'd notice when they do. Most of what I've built sits somewhere between the two.</p>
+        <p>On the offensive side, I've worked through every SQL injection lab on PortSwigger's Web Security Academy and built a recon tool that maps a domain's external exposure in one run. On the defensive side, I built HoneyTrap, a platform that plants fake credentials and alerts the moment anyone touches them, and an insider threat detector that works like a small SIEM.</p>
+        <p>In May and June 2026 I was a Data Security Intern at <strong>Visit Health</strong>. I built the recon pipeline shown below, contributed to a vendor cloud security audit (logging, network security, IAM and S3 data protection), analysed security logs in Splunk and ELK, and hardened AWS infrastructure with IAM policies, security groups, CloudTrail and GuardDuty.</p>
+        <div class="about-facts">
+          <div><span class="fact-label">Studying</span><span>B.Tech CSE, Cybersecurity, VIT Vellore</span></div>
+          <div><span class="fact-label">Certified</span><span>CompTIA Security+ (SY0-701)</span></div>
+          <div><span class="fact-label">Experience</span><span>Data Security Intern, Visit Health</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="reveal">
+          <p class="section-label">02 / Projects</p>
+          <h2>Projects</h2>
+          <p class="section-intro">Click any project for the full breakdown: why I did it, what I actually did, what came out of it, and the evidence.</p>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+      </div>
+    </section>
+
+    <!-- PRACTICAL LEARNING -->
+    <section id="learning" class="section">
+      <div class="container">
+        <div class="reveal">
+          <p class="section-label">03 / Practical learning</p>
+          <h2>Hands-on learning</h2>
+          <p class="section-intro">Labs, rooms and simulations I've completed. These are practice, not certifications.</p>
+        </div>
+        <div class="learning-grid" id="learning-grid"></div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="reveal">
+          <p class="section-label">04 / Certifications</p>
+          <h2>Certifications</h2>
+        </div>
+        <div id="cert-list"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container narrow reveal">
+        <p class="section-label">05 / Contact</p>
+        <h2>Get in touch</h2>
+        <p>Open to internships and security roles. Email or LinkedIn is the quickest way to reach me.</p>
+        <div class="contact-links">
+          <a class="contact-card" href="mailto:lakshkhatri2021@gmail.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">lakshkhatri2021@gmail.com</span>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/lakshkhatri/" target="_blank" rel="noopener">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/lakshkhatri</span>
+          </a>
+          <a class="contact-card" href="https://github.com/lakshkhatri2021" target="_blank" rel="noopener">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/lakshkhatri2021</span>
+          </a>
+          <a class="contact-card" href="https://tryhackme.com/p/lakshkhatri2021" target="_blank" rel="noopener">
+            <span class="contact-label">TryHackMe</span>
+            <span class="contact-value">tryhackme.com/p/lakshkhatri2021</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Laksh Khatri</p>
+    </div>
+  </footer>
+
+  <!-- PROJECT DETAIL VIEW -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel" tabindex="-1">
+      <button class="modal-close" data-close aria-label="Close">×</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
